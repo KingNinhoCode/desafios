@@ -1,0 +1,106 @@
+/*HEADER*/
+.div-header {
+	width: 100%;
+	height: 100px;
+}
+
+ul {
+	float: right;
+}
+
+li {
+	display: inline;
+}
+
+#google-apps {
+	position: relative;
+	top: 11px;
+}
+
+#google-perfil {
+	position: relative;
+	top: 17px;
+}
+
+/*MAIN*/
+.div-main {
+	width: 940px;
+	margin: 50px auto;	
+	text-align: center;
+}
+
+main img {
+	width: 320px;
+}
+
+input {
+	display: block;
+	margin: 20px auto 0;
+	width: 540px;
+	padding: 15px 20px;
+	border-radius: 30px;
+	border: 1px solid #cccccc;
+	margin-bottom: 30px; 
+}
+
+main button {
+	border: none;
+	color: #777777;
+	background-color: #eeeeee;
+	padding: 15px;
+}
+
+main button:hover {
+	border-radius: 5px;
+	border: 1px solid #999999;
+	background-image: linear-gradient(white,white,#efefef)
+}
+
+main button:first-of-type {
+	margin-right: 20px;
+}
+
+main p {
+	margin-top: 20px;
+}
+
+a {
+	color: #1010EE;
+	text-decoration: none;
+}
+
+/*FOOTER*/
+.div-footer {
+	position: absolute;
+	bottom: 0;
+	height: 13%;
+	width: 100%;
+	background-color: #f2f2f2;
+}
+
+.df-1 {
+	height: 50%;
+}
+
+.df-2 {
+	height: 50%;
+}
+
+span {
+	position: relative;
+	top: 10px;
+	left: 20px;
+	margin-left: 10px;
+}
+
+span:not(.first) {
+	position: relative;
+	top: 10px;
+	left: 20px;
+	margin-left: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}

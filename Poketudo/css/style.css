@@ -1,0 +1,13 @@
+/*GERAL*/
+.container {
+	margin-left: 7vw !important;
+	margin-right: 7vw !important;
+}
+
+@media screen and (max-width: 885px) {
+	.container {
+		margin-left: 4vw !important;
+		margin-right: 4vw !important;
+	}
+
+}

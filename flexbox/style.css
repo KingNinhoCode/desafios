@@ -1,0 +1,92 @@
+.tela {
+	width: 700px;
+	height: 600px;	
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-content: flex-start;
+}
+
+.box {
+	width: 25%;
+	height: 25%;
+	background-color: red;
+	margin: 1%;
+	border: 0px solid black;
+	border-radius: 10px;
+	display: flex;
+	align-items: flex-end;
+	position: relative;
+	box-shadow: inset 0px 0px 10000px rgb(50,50,50);
+
+}
+
+.box p {
+	font-family: 'Roboto';
+	font-size: 18px;
+	color: white;
+	margin: 10px;
+}
+
+#fruit {
+	flex-grow: 4;
+	background-image: url(img/fruit.jpg);
+	background-size: 280px;
+}
+
+#letters {
+	background-image: url(img/letters.jpg);
+	background-size: 280px;
+}
+
+#pastel {
+	background-image: url(img/pastel.jpg);
+	background-size: 280px;
+}
+
+#faceless {
+	background-image: url(img/faceless.jpg);
+	background-size: 150px;
+}
+
+#eletronics {
+	flex-grow: 3;
+	background-image: url(img/eletronics.jpg);
+	background-size: 280px;
+}
+
+#temple {
+	background-image: url(img/temple.png);
+	background-size: 280px;
+}
+
+#bike {
+	height: 45%;
+	background-image: url(img/bike.jpg);
+	background-size: 410px;
+}
+
+#furniture {
+	height: 42%;
+	background-image: url(img/furniture.jpg);
+	background-size: 340px;
+}
+
+#green {
+	background-image: url(img/green.jpg);
+	background-size: 280px;
+}
+
+#clouds {
+	height: 20%;
+	background-image: url(img/cloulds.jpg);
+	background-size: 280px;
+}
+
+#guilty {
+	height: 45%;
+	background-image: url(img/guilty.jpg);
+	background-size: 400px;
+	background-position: center;
+}

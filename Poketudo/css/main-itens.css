@@ -1,0 +1,104 @@
+/*ITENS*/
+.itens {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #fefefe;
+}
+
+.sessao {
+	font-size: 2rem;
+	margin: 3rem 0 1.5rem;
+	text-align: center;
+}
+
+.cards {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+
+.card {
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 30%;
+	height: 50vh;
+	overflow: hidden;
+	position: relative;
+	min-width: 300px;
+	margin: 2px;
+
+}
+
+.card img {
+	width: 100%;
+	height: 100%;
+	filter: grayscale(60%);
+	transition: filter 1s;
+}
+
+.card img:hover {
+	filter: grayscale(0%);
+	cursor: pointer;
+
+}
+
+.card h4 {
+	position: absolute;
+	z-index: 1;
+	bottom: 0px;
+	padding: 10px 0;
+	background: rgba(10,0,0,70%);
+	width: 100%;
+	color: white;
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+.button {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid black;
+	margin: 20px 0;
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+.button div:first-of-type {
+	font-size: 1.2rem;
+	padding: 0 10px;
+}
+
+.button div:last-of-type {
+	background: green;
+	padding: 10px;
+	color: white;
+}
+
+@media screen and (max-width: 685px) {
+	.card {
+		width: 70%;
+		height: 50vh;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.card {
+		width: 80%;
+		height: 50vh;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.card {
+		width: 90%;
+		height: 50vh;
+	}
+}

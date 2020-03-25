@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<title>Animação Fodasi</title>
+	<meta charset="utf-8">
+</head>
+
+<body>
+
+	<style>
+
+		body { background-color: #ccffcc;}
+
+		#animation {
+			background-image: url("cobrao.png");
+			width: 87px;
+			height: 117px;
+			-webkit-animation: cobrao 4.0s steps(7) infinite;
+			animation: cobrao 4.0s steps(7) infinite;
+		}
+
+		@-webkit-keyframes cobrao {
+			from { background-position: 609px;}
+			to {
+				background-position: 0px;
+			}
+		}
+
+		@keyframes cobrao {
+			from { background-position: 609px; }
+			to { background-position: 0px }
+		}
+
+
+	</style>
+
+
+	<div id="animation"></div>
+
+</body>
+
+
+</html>

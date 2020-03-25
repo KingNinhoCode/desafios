@@ -1,0 +1,112 @@
+header {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+}
+
+header .container {
+	width: 940px;
+	padding: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .container nav {
+	width: 70%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-family: 'Odibee Sans';
+	font-size: 25px;
+}
+
+header button {
+	font-family: 'Odibee Sans';
+	font-size: 20px;
+	padding: 10px 20px;
+	border-radius: 25px;
+	border: 1px solid black;
+}
+
+header button:nth-child(2n) {
+	background: #E71919;
+	color: white;
+}
+
+.logo {
+	width: 50px;
+}
+/*MAIN*/
+main {
+	font-family: 'Odibee Sans';
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+}
+
+main .container {
+	display: flex;
+	flex-direction: row;
+	width: 940px;
+	justify-content: space-around;
+}
+
+main .descricao {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+main img {
+	width: 40vh;
+	display: inline-block;
+}
+
+main h1 {
+	font-size: 60px;
+	margin-bottom: 20px;
+	color: #ff0000;
+}
+
+main p {
+	font-size: 20px;
+	color: #A67171;
+}
+
+main button {
+	font-family: 'Odibee Sans';
+	background: #DB2D2D;
+	color: white;
+	font-size: 20px;
+	padding: 10px 20px;
+	border-radius: 25px;
+	border: 1px solid black;
+	width: 200px;
+}
+
+/*FOOTER*/
+footer {
+	display: flex;
+	justify-content: center;
+}
+
+footer .container {
+	display: flex;
+	align-items: center;
+	font-family: 'Odibee Sans';
+	font-size: 20px;
+	color: #E16B6B;
+}
+
+.clientes {
+	width: 940px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.clientes img {
+	width: 10%;
+}

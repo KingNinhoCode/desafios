@@ -1,0 +1,13 @@
+.pokedex {
+	display: flex;
+}
+
+.pokedex > div {
+	display: flex;
+	flex-direction: column;
+}
+
+.pokedex > div h3 {
+	font-size: 2rem;
+}
+

@@ -1,0 +1,143 @@
+/*HEADER*/
+
+
+header {
+	background: rgba(200,50,50,1);
+	position: relative;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 0;
+}
+
+.header nav {
+	width: 40%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header nav a {
+	text-decoration: none;
+	color: black;
+	font-size: 1.15rem;
+}
+
+.header > div {
+	display: flex;
+	align-items: center;
+}
+
+h1 {
+	font-size: 30px;
+	padding-left: 10px;
+}
+
+.logo {
+	width: 70px;
+}
+
+.principal {
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	padding: 20px 0;
+}
+
+.pesquisa {
+	grid-row: 1 / 2;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.pesquisa h2 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	margin-bottom: 2rem;
+}
+
+.barra {
+	box-sizing: border-box;
+	background: white;
+	padding: 7px 10px;
+	display: flex;
+	width: 90%;
+	justify-content: space-between;
+}
+
+.barra input, .barra button {
+	border: none;
+	font-size: 1.25rem;
+}
+
+.principal > img {
+	max-width: 270px;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 885px) {
+	.logo {
+		width: 50px;
+	}
+
+	.header nav {
+		width: 55%;
+	}
+
+	.principal {
+		grid-template-rows: repeat(2,1fr);
+		grid-template-columns: 1fr;
+	}
+
+	.pesquisa {
+		grid-row: 2 / 3;
+		text-align: center;
+		align-items: center;
+	}
+
+	.principal > img {
+		max-width: 170px;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 590px) {
+	.header nav {
+		display: none;
+	}
+
+}
+
+.clicavel:hover {
+	cursor: pointer;
+}
+
+.side {
+	display: flex !important;
+	box-sizing: border-box;
+	flex-direction: column;
+	background: gray;
+	justify-content: flex-start !important;
+	height: 100vh;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	padding: 20px;
+	z-index: 3;
+}
+
+.side a {
+	margin-bottom: 50px;
+}
+
+.overlay {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	z-index: 2;
+	background: rgba(0,0,0,60%);
+	right: 0px;
+	top: 0px;
+}
