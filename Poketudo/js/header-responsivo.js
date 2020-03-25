@@ -23,6 +23,19 @@ menu.addEventListener("click", function(event) {
 	}
 })
 
+menu.addEventListener("touchstart", function(event) {
+
+	if (window.innerWidth <= 590) {
+
+		nav.classList.add("side")
+		side = true;
+
+		overlay = document.createElement("div")
+		overlay.classList.add("overlay")
+		header.appendChild(overlay)
+	}
+})
+
 document.addEventListener("click", function(event){
 	
 	if (side = true && event.x > nav.offsetWidth) {
