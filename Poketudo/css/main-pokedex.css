@@ -1,5 +1,6 @@
 .pokedex {
-	display: flex;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
 }
 
 .pokedex > div {
@@ -11,3 +12,38 @@
 	font-size: 2rem;
 }
 
+.boxs {
+	display: flex;
+	flex-direction: column;
+	margin: 5px;
+}
+
+.box {
+	border-bottom: 1px solid #cccccc;
+	box-shadow: 0px 4px 5px #cccccc;
+	box-sizing: border-box;
+	padding: 5px;
+	margin: 5px 0;
+	max-width: 500px;
+}
+
+.box h5 {
+	font-size: 1.05rem;
+	margin: 2px 0;
+}
+
+.box p {
+	color: #858585;
+}
+
+.box:nth-child(1) {
+	border-left: 5px solid red;
+}
+
+.box:nth-child(2) {
+	border-left: 5px solid green;
+}
+
+.box:nth-child(3) {
+	border-left: 5px solid blue;
+}

@@ -11,3 +11,11 @@
 	}
 
 }
+
+@media screen and (max-width: 600px) {
+	.container {
+		margin-left: 2vw !important;
+		margin-right: 2vw !important;
+	}
+
+}
